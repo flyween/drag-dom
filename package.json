@@ -1,12 +1,19 @@
 {
-  "name": "drag-dom",
-  "version": "1.0.0",
+  "name": "drag-ele",
+  "version": "1.1.0",
   "description": "Make Dom element can be dragged.Support PC&Mobile",
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flyween/drag-ele"
+  },
+  "keywords": [
+    "drag"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
