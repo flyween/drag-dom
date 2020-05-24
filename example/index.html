@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            /* background: #ccc; */
+        }
+        .drag-box {
+            margin: 150px auto;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: center;
+            user-select: none;
+            cursor: pointer;
+        }
+        .drag-box:hover {
+            background-color: rgba(0,0,0,.01);
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="drag-box" id="drag">
+        Drag me
+    </div>
+
+    <script src="../dist/dragMove.min.js"></script>
+    <script>
+        new dragMove(document.getElementById('drag'))
+        // new dragMove(document.getElementById('body'))
+    </script>
+</body>
+</html>
